@@ -1,0 +1,13 @@
+debug: false
+httpport: 80
+language: en-US                   # "zh-CN" / "en-US" / "es-ES"
+grpcport: 8080
+oauth2:
+  type: ""                        # "github" / "gitlab" / "gitee" / "jihulab"
+  admin: ""                       # "admin" / "admin1,admin2"
+  clientid: ""
+  clientsecret: ""
+site:
+  brand: "nezha-dashboard"
+  cookiename: "nezha-dashboard"
+  theme: "default"                # "custom" / "daynight" / "default" / "hotaru" / "mdui"
